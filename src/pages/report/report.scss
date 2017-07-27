@@ -3,7 +3,7 @@ page-report {
 }
  
 .time{
-    padding-top: 10px;
+    padding-top: 20px;
      color:     #71C0B4;
     font-size: 25px;
   position: relative;
@@ -22,7 +22,9 @@ page-report {
     height: 46px;
     width: 140px;
     font-size: 30px;
-
+    vertical-align: middle;
+border-radius: 12%;
+border-radius: 5px;
 }
 .cat{
     background-color:   #71C0B4;
@@ -30,7 +32,10 @@ page-report {
     height: 46px;
     width: 140px;
     font-size: 30px;
-
+vertical-align: middle;
+border-radius: 12%;
+border-radius: 5px;
+margin-left: 22px;
 }
 .message{
     color: white;
@@ -39,8 +44,9 @@ page-report {
     
 text-align: center;
 background-color: #71C0B4;
-margin-top: 30px;
-height: 230px;
+margin-top: 20px;
+height: 290px;
+margin-bottom: 5px;
 
 }
 .send{
@@ -53,14 +59,31 @@ height: 230px;
     position: relative;
     text-align: center;
     margin-left: 50px;
+        border-radius: 12%;
+    border-radius: 25px;
+ position: absolute;
+ margin-bottom: 20px;
 
 }
 .input{
+    margin-top: 10px;
     font-size: 20px;
-    height: 170px;
+    height: 100px;
     width: 230px;
     align-content: center;
     position: relative;
     text-align: center;
+    
+   
+}
+.input2{
+  
+    font-size: 20px;
+    height: 100px;
+    width: 230px;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
    
 }
